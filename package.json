@@ -1,0 +1,18 @@
+{
+  "name": "mongodb-26",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "start": "node index.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.11.4",
+    "nodeman": "^1.1.2"
+  }
+}
