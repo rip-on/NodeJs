@@ -20,3 +20,8 @@ const myServer = http.createServer((req, res)=>{        //req handler
 
 myServer.listen(8000, () => console.log("Server Started!")
 )
+
+//Default Thread Pool Size = 4
+const os = require('os');
+
+console.log(os.cpus().length);
